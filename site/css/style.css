@@ -1,18 +1,20 @@
-body {
-    padding-bottom: 150px;
-    /* espaço para o footer */
+body{
+    display:flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 150px;
-    line-height: 60px;
+    padding: 25px;
 }
 
 .yoga_home img {
-    border-radius: 50%
+    border-radius: 50%;
+    box-shadow: -20px 30px 40px #2b312d36;
 }
 
 .tabelao {
@@ -31,10 +33,50 @@ footer {
 }
 
 .navbar-collapse{
-    margin-left: 25%;
+    margin-left: 15vw;
+}
+
+.dhalsim-yoga{
+    text-align: center;
+}
+
+.carosel{
+    position: flex;
+    padding: 30vh;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    text-align: center;
 }
 
 .sociais_svg{
     position: absolute;
     right: 16px;
+}
+
+.yogoide img {
+    border-radius: 30%;
+    box-shadow: 0 30px 40px #1d6b3b72;
+}
+
+.tabeloide {
+    padding:50px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.textoide {
+    margin-left: 30px;
+    margin-right: 150px;
+}
+
+.beneficios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+
+.clinica-motivo{
+    text-align: center;
 }
