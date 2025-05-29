@@ -164,3 +164,29 @@ footer {
     margin: 0 auto;
     margin-top: 50px;
 }
+
+.divider-centro-2 {
+    width: 60%;
+    height: 0.5px;
+    background-color: #72727227;
+    margin: 0 auto;
+}
+
+.textoexto{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.tabelosoco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 3px;
+}
+
+.left-tab{
+    text-align: left;
+    padding-right: 30px;
+}
