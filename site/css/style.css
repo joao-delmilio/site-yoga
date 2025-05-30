@@ -190,3 +190,13 @@ footer {
     text-align: left;
     padding-right: 30px;
 }
+
+.forms-agendamento{
+    justify-content: center;
+    text-align: center;
+}
+
+#mensagem{
+    display: none;
+    color: rgb(7, 114, 51);
+}
