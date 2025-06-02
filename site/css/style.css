@@ -3,13 +3,10 @@ body {
     flex-direction: column;
 }
 
-main {
-    flex: 1;
-    padding: 20px;
-}
-
 footer {
-    padding: 25px;
+    display: fixed;
+    position: 0 bottom;
+    padding-top: 20px;
 }
 
 .yoga_home img {
@@ -46,6 +43,11 @@ footer {
     padding-top: 5vw;
     padding-bottom: 5vw;
     text-align: center;
+}
+
+.carosel img{
+    height: 650px;
+    width: 1000px;
 }
 
 .sociais_svg {
@@ -91,7 +93,7 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white
+    color: rgb(255, 255, 255);
 }
 
 .entre-contato {
@@ -194,6 +196,7 @@ footer {
 .forms-agendamento{
     justify-content: center;
     text-align: center;
+    padding-bottom: 97px;
 }
 
 #mensagem{
