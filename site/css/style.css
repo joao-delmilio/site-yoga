@@ -6,7 +6,6 @@ body {
 footer {
     display: fixed;
     position: 0 bottom;
-    padding-top: 20px;
 }
 
 .yoga_home img {
@@ -47,7 +46,7 @@ footer {
     text-align: center;
 }
 
-.carosel img{
+.carosel img {
     height: 650px;
     width: 1000px;
 }
@@ -90,11 +89,16 @@ footer {
     text-align: center;
 }
 
+#cao {
+    width: 100%;
+    height: 500px;
+}
+
 .txt_mid {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -100%);
     color: rgb(255, 255, 255);
 }
 
@@ -104,7 +108,15 @@ footer {
     text-align: center;
 }
 
+
+#piupiu{
+    padding: 0 10px;
+}
+
 .entre-contato-2 {
+    padding-top: 2%;
+    justify-content: center;
+    text-align: center;
     background-color: #b7e1ba;
 }
 
@@ -136,6 +148,9 @@ footer {
     border-collapse: separate;
 }
 
+.spaco-cel table{
+    border-spacing: 20px;
+}
 .tabeloso {
     padding-top: 2%;
     margin-left: 20vh;
@@ -176,12 +191,12 @@ footer {
     margin: 0 auto;
 }
 
-.textoexto{
+.textoexto {
     padding-top: 10px;
     padding-left: 30px;
 }
 
-.tabelosoco{
+.tabelosoco {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -190,35 +205,44 @@ footer {
     padding: 3px;
 }
 
-.left-tab{
+.left-tab {
     text-align: left;
     padding-right: 30px;
 }
 
-.forms-agendamento{
+.forms-agendamento {
     justify-content: center;
     text-align: center;
-    margin-right: 30%;
-    margin-left:30%;
     padding-top: 50px;
     padding-bottom: 50px;
-   background-image:linear-gradient(#b7e1ba,#aeffdd4b);
+    background-image: linear-gradient(#b7e1ba, #aeffdd4b);
 }
 
-#mensagem{
+#form-agendamento-2{
+    margin: 0 22%;
+}
+
+#mensagem {
     display: none;
     color: #077233;
 }
 
-.cao{
-    width: 100%;
+#xurume {
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
-#xurume{
-    margin-left:150px;
-    margin-right:150px;
-}
-
-.acordabela{
+.acordabela {
     margin: 1% 20%;
+}
+
+#gato{
+    width: 100%;
+    height: 128px;
+}
+
+#grid-de-cards{
+    display: flex;
+    margin: 0 auto;
+    gap: 20px;
 }

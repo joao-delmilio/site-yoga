@@ -16,7 +16,7 @@
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
         crossorigin="anonymous"></script>
 
-    <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+    <div class="shadow-sm p-3 bg-body-tertiary rounded">
         <nav class="navbar navbar-expand-lg">
 
             <div class="container-fluid">
@@ -87,7 +87,7 @@
         <div class="divider-centro-2"></div>
         <br>
         <div>
-            <form id="form-agendamento">
+            <form id="form-agendamento-2">
                 <div class="mb-3" id="xurume">
                     <label for="nome" class="form-label">Nome Completo</label>
                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -110,7 +110,8 @@
                 </div>
                 <label for="data-agendamento">Selecione a data desejada</label><br>
                 <input type="date" id="data-agendamento" name="data-agendamento"><br><br>
-                <button type="submit" class="btn btn-outline-dark">Confirmar</button>
+                <div id="liveAlertPlaceholder"></div>
+                <button type="button" class="btn btn-dark" id="liveAlertBtn">Confirmar</button>
                 <button type="reset" class="btn btn-outline-danger">Apagar</button>
             </form>
         </div>
